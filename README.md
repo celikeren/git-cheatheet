@@ -10,3 +10,6 @@
 `git push`  
   
 `git commit --amend -m "rough sketch for some pages"`
+
+git push --set-upstream origin patch-1
+
