@@ -9,7 +9,9 @@
 `git commit -m "<>"`  
 `git push`  
   
-`git commit --amend -m "rough sketch for some pages"`
+`git commit --amend -m "rough sketch for some pages"`  
 
-git push --set-upstream origin patch-1
+`git push --set-upstream origin patch-1`  
 
+`git config --global user.name "eren.celik"`  
+`git config --global user.email "celikmehmeteren@gmail.com"`  
