@@ -14,8 +14,8 @@
 `git checkout -b patch-1`  
 _create new branch patch-1 and switch_  
 _same with:_  
-`git branch iss53`  
-`git checkout iss53`  
+`git branch patch-1`  
+`git checkout patch-1`  
 
 `git push --set-upstream origin patch-1`  
 
