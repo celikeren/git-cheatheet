@@ -21,3 +21,10 @@ _same with:_
 
 `git config --global user.name "eren.celik"`  
 `git config --global user.email "celikmehmeteren@gmail.com"`  
+  
+  
+`git tag -l`  
+`git ls-remote --tags`  
+`git fetch --all --tags`   
+`git tag -d 0.5.0`  
+`git push --tags`  
