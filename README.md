@@ -28,3 +28,8 @@ _same with:_
 `git fetch --all --tags`   
 `git tag -d 0.5.0`  
 `git push --tags`  
+
+
+## tag  
+`git tag 0.0.3`  
+`git push origin 0.0.3`
