@@ -29,7 +29,21 @@ _same with:_
 `git tag -d 0.5.0`  
 `git push --tags`  
 
+git log
+git log --oneline
+git revert 117a994
+git reset HEAD^
 
 ## tag  
 `git tag 0.0.3`  
 `git push origin 0.0.3`
+
+## branches
+- switch to a branch
+`git checkout dev`
+
+- create a new local branch
+`git checkout -b test`
+
+- push new local branch to remote
+`git push -u origin test`
