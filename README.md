@@ -1,49 +1,93 @@
 # git-cheatheet
 
-`git init`  
-`git clone`  
-`git pull`  
-`git add <>`  
-`git add -A`  
+## basic
+- `git init`  
+    > _new git repo_  
+    _creates the .git file_
+    
 `git status`  
-`git commit -m "<>"`  
-`git push`  
+   > _info about the repo_  
+   _current branch, staged files, if it's up to date etc._
+
+- `git config user.email"`  
+   > _shows the configured email_  
+   
+- `git config user.name"`  
+   > _shows the configured name_  
+
+- `git config --global user.name "eren.celik"`  
+   > _sets the username_  
+   
+- `git config --global user.email "celikmehmeteren@gmail.com"`  
+   > _sets the email address_  
+
+- `git config --list`  
+   > _lists all properties_  
+
+
+## intro
+- `git clone <url>`
+    > _downloads an existing repo_  
+
+- `git pull` 
+    > _gets the latest state_  
+
+- `git add <file>`  
+   > _stages the given file_ 
+     _more than one file can be given;_
+         `git add <file> <file> <file>`
+- `git add -A`  
+   > _stages all modified files_ 
+
+- `git commit -m "<message>"`  
+   > _commits with the given message, changes are still in local_  
+
+- `git commit --amend -m "bla bla bla"`  
+   > _updates the latest commit and/or message_  
+   
+- `git push`  
+   > _sends changes to remote_  
   
-`git commit --amend -m "rough sketch for some pages"`  
-
-`git checkout -b patch-1`  
-_create new branch patch-1 and switch_  
-_same with:_  
-`git branch patch-1`  
-`git checkout patch-1`  
-
-`git push --set-upstream origin patch-1`  
-
-`git config --global user.name "eren.celik"`  
-`git config --global user.email "celikmehmeteren@gmail.com"`  
-  
-  
-`git tag -l`  
-`git ls-remote --tags`  
-`git fetch --all --tags`   
-`git tag -d 0.5.0`  
-`git push --tags`  
-
-git log
-git log --oneline
-git revert 117a994
-git reset HEAD^
-
-## tag  
-`git tag 0.0.3`  
-`git push origin 0.0.3`
-
 ## branches
-- switch to a branch
-`git checkout dev`
+- `git branch`  
+   > _lists all branches and marks the current one_  
+   
+- `git branch <branch_name>`  
+   > _creates a new branch with given name_ 
+   
+- `git checkout <branch_name>`  
+   > _switches to given branch_ 
 
-- create a new local branch
-`git checkout -b test`
+- `git checkout -b <branch_name>`  
+   > _creates new branch and switch_  
+   _same with:_  
+      `git branch <branch_name>`  
+      `git checkout <branch_name>`  
+      
+- `git push -u origin <branch_name>` 
+  `git push --set-upstream origin <branch_name>` 
+   > _push specific branch to remote_  
 
-- push new local branch to remote
-`git push -u origin test`
+## tag
+- `git tag`  
+   > _lists existing tags_  
+- `git tag <tag_name>`  
+   > _creates a new tag_   
+- `git tag -d <tag_name>`  
+   > _deletes the tag_  
+- `git push origin <tag_name`  
+   > _creates the tag in remote_  
+
+## log
+- `git log`  
+   > _shows commit history_  
+- `git log --oneline`  
+   > _shows every commit as one line_   
+- `git log -3`  
+   > _shows the latest 3 commits_  
+- `git log --author="eren"`  
+   > _shows the commits by a specific author_  
+   _(lists all names including 'eren')_  
+- `git log --grep="<message>"`  
+   > _shows the commits with a specific message_  
+
