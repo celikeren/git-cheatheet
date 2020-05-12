@@ -5,20 +5,20 @@
     > _new git repo_  
     _creates the .git file_
     
-`git status`  
+- `git status`  
    > _info about the repo_  
    _current branch, staged files, if it's up to date etc._
 
-- `git config user.email"`  
+- `git config user.email`  
    > _shows the configured email_  
    
-- `git config user.name"`  
+- `git config user.name`  
    > _shows the configured name_  
 
-- `git config --global user.name "eren.celik"`  
+- `git config --global user.name "<username>"`  
    > _sets the username_  
    
-- `git config --global user.email "celikmehmeteren@gmail.com"`  
+- `git config --global user.email "<email>"`  
    > _sets the email address_  
 
 - `git config --list`  
@@ -33,8 +33,8 @@
     > _gets the latest state_  
 
 - `git add <file>`  
-   > _stages the given file_ 
-     _more than one file can be given;_
+   > _stages the given file_  
+     _more than one file can be given;_  
          `git add <file> <file> <file>`
 - `git add -A`  
    > _stages all modified files_ 
@@ -60,12 +60,12 @@
 
 - `git checkout -b <branch_name>`  
    > _creates new branch and switch_  
-   _same with:_  
-      `git branch <branch_name>`  
-      `git checkout <branch_name>`  
+      _same with:_  
+        `git branch <branch_name>`  
+        `git checkout <branch_name>`  
       
-- `git push -u origin <branch_name>` 
-  `git push --set-upstream origin <branch_name>` 
+- `git push -u origin <branch_name>`  
+  `git push --set-upstream origin <branch_name>`  
    > _push specific branch to remote_  
 
 ## tag
