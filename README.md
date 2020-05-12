@@ -75,7 +75,7 @@
    > _creates a new tag_   
 - `git tag -d <tag_name>`  
    > _deletes the tag_  
-- `git push origin <tag_name`  
+- `git push origin <tag_name>`  
    > _creates the tag in remote_  
 
 ## log
