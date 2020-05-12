@@ -68,6 +68,10 @@
   `git push --set-upstream origin <branch_name>`  
    > _push specific branch to remote_  
 
+- `git checkout --track origin/<branch_name>`  
+   > _gets the new remote branch and switches_ 
+
+
 ## tag
 - `git tag`  
    > _lists existing tags_  
