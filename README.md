@@ -95,3 +95,10 @@
 - `git log --grep="<message>"`  
    > _shows the commits with a specific message_  
 
+## merge
+- `git checkout <receiving_branch>`  
+   > _first checkout to receiving branch_  
+- `git merge <merging_branch>`  
+   > _merging branch changes will be merged to receiving branch_  
+- `git push`  
+   > _then you can push your changes_     
