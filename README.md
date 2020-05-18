@@ -101,7 +101,7 @@
    _(lists all names including 'eren')_  
 - `git log --grep="<message>"`  
    > _shows the commits with a specific message_  
-
+  
 ## merge
 - `git checkout <receiving_branch>`  
    > _first checkout to receiving branch_  
@@ -109,3 +109,12 @@
    > _merging branch's changes will be applied to receiving branch_  
 - `git push`  
    > now you can push your changes_     
+  
+   
+## revert  
+- `git log --oneline`  
+   > _take the hash of commit you want to revert_  
+- `git revert <commit_hash>`  
+   > _reverts the commit_  
+- `git push`  
+   > _push your commit_     
