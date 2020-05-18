@@ -70,8 +70,8 @@
 
 - `git checkout --track origin/<branch_name>`  
    > _gets the new remote branch and switches_  
-   _in case of error, try:_
-            `git fetch --all`
+   _in case of error, try:_  
+            `git fetch --all`  
 
 
 ## tag
