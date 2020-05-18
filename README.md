@@ -73,6 +73,11 @@
    _in case of error, try:_  
             `git fetch --all`  
 
+- `git branch -d <branch_name>`  
+   > _deletes local branch_  
+    
+ - `git push origin --delete <branch_name>`  
+   > _deletes remote branch_  
 
 ## tag
 - `git tag`  
