@@ -78,7 +78,13 @@
     
  - `git push origin --delete <branch_name>`  
    > _deletes remote branch_  
-
+   
+### rename a remote branch
+ - `git checkout old`  
+ - `git branch -m new`
+ - `git push origin -u new`
+ - `git push origin --delete old`
+  
 ## tag
 - `git tag`  
    > _lists existing tags_  
