@@ -9,17 +9,25 @@
    > _info about the repo_  
    _current branch, staged files, if it's up to date etc._
 
+## config
+
+- `git config --global user.name "Eren Çelik"`  
+   > _sets the global username_  
+   
+- `git config --global user.email "celikmehmeteren@gmail.com"`  
+   > _sets the global email_  
+
+- `git config user.name "Eren Çelik"`  
+   > _sets the repo specific username (run in the repo directory)_  
+   
+- `git config --global user.email "celikmehmeteren@gmail.com"`  
+   > _sets the repo specific email (run in the repo directory)_  
+
 - `git config user.email`  
    > _shows the configured email_  
    
 - `git config user.name`  
    > _shows the configured name_  
-
-- `git config --global user.name "<username>"`  
-   > _sets the username_  
-   
-- `git config --global user.email "<email>"`  
-   > _sets the email address_  
 
 - `git config --list`  
    > _lists all properties_  
