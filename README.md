@@ -132,3 +132,16 @@
    > _reverts the commit_  
 - `git push`  
    > _push your commit_     
+
+## stash  
+- `git stash`  
+   > _stash the changes_  
+- `git stash save "cool_try_bro_maybe_later"`  
+   > _stash with a name_  
+- `git stash list`  
+   > _lists the stashes_ 
+   _you will see that stashes given indexes; 0, 1, 2..._ 
+- `git stash apply stash@{0}`  
+   > _apply the stash_  
+
+
