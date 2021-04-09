@@ -144,4 +144,11 @@
 - `git stash apply stash@{0}`  
    > _apply the stash_  
 
+## cherry-pick  
+- `git log --oneline branch_name`  
+   > _list the id of the commits for the branch_  
+- `git cherry-pick <commit-id>`  
+   > _pick the cherry_  
+
+
 
