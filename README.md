@@ -149,6 +149,8 @@
    > _list the id of the commits for the branch_  
 - `git cherry-pick <commit-id>`  
    > _pick the cherry_  
-
-
-
+  
+## reset  
+- `git reset --hard origin/master`  
+   > _reset local branch to remote_  
+  
