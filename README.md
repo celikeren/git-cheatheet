@@ -154,3 +154,9 @@
 - `git reset --hard origin/master`  
    > _reset local branch to remote_  
   
+## diff  
+- `git diff HEAD <file/path>`  
+   > _shows the changes in command line for the file_    
+- `git diff --cached`  
+   > _shows staged changes_    
+  
