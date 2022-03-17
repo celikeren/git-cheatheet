@@ -160,3 +160,7 @@
 - `git diff --cached`  
    > _shows staged changes_    
   
+## prune
+- `git fetch -p`  
+  `git fetch --prune`  
+   > _fetch and remove remotely deleted branches_  
